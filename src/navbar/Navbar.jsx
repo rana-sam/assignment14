@@ -6,7 +6,7 @@ export default function Navbar() {
   return(
    <div>
        <div className="container">
-           <div className="row">
+           <div className="row pt-3">
            <div className="col-6"><img src={img1} alt="" /><img src={img2} alt="" /></div>
            <div className="col-6 d-flex justify-content-between">
                <h6>Home</h6>
