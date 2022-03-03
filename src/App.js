@@ -4,10 +4,12 @@ import './App.css';
 import Services from './services/Services';
 import Navbar from './navbar/Navbar';
 import Reasons from './reasons/Reasons';
+import States from './states/States';
 
 function App() {
   return (
     <div >
+      <States/>
       <Services/>
       <AboutUS/>
       <Reasons/>
