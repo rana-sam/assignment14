@@ -15,6 +15,7 @@ export default function Ads() {
                 </span>
                 <button className="btn border-light text-light ms-5  "style={{height:40}}>Get your consultation</button>
               </div>
+              
             </div>
           </div>
         </div>
