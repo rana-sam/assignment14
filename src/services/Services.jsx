@@ -8,9 +8,12 @@ import img5 from "../assest/img5.png";
 export default function Services() {
   return (
     <div>
-      <div className="container mt-5 pt-5 pb-5 mb-5 border">
+      <div className="container mt-5 pt-5 pb-5 mb-5"style={{backgroundColor:"#F6F8F7"}}>
+        <div className="row">
+          <div className="col-12 text-center"><h3>Services</h3></div>
+        </div>
         <div className="row mt-5">
-          <div className="col-1"></div>
+          <div className="col-2"></div>
           <div className="col-2 text-primary justify-content-center">
             <div className="border pt-3 pb-3 text-center">
               <img src={img} alt="" className="" />
@@ -38,7 +41,7 @@ export default function Services() {
         </div>
 
         <div className="row mt-5 mb-5">
-        <div className="col-1"></div>
+        <div className="col-2"></div>
           <div className="col-2  justify-content-center">
             <div className="border bg-primary text-light pt-3 pb-3 text-center">
               <img src={img3} alt="" className="" />

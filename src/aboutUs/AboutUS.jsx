@@ -5,9 +5,9 @@ export default function AboutUS() {
     <div>
       <div className="container position-relative  mt-5 pt-5">
         <div className="row">
-          <div className="col-1"></div>
-          <div className="col-7">
-            <img src={img} alt="" height={450} width={700} />
+          <div className="col-2"></div>
+          <div className="col-6">
+            <img src={img} alt="" height={440} width={600} />
           </div>
           <div className="col-4 position-absolute start-50 mt-4 ">
               <div className="bg-primary ps-4 text-light me-5 pe-2">

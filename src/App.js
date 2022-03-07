@@ -8,19 +8,21 @@ import States from './states/States';
 import Ads from './ads/Ads';
 import Cta from './cta/Cta';
 import Bottom from './bottom/Bottom';
+import Footer from './footer/Footer';
 
 function App() {
   return (
     <div >
       
-      <Bottom/>
-      <Cta/>
-      <Ads/>
-      <States/>
-      <Services/>
-      <AboutUS/>
-      <Reasons/>
       <Navbar/>
+      <Reasons/>
+      <AboutUS/>
+      <Services/>
+      <States/>
+      <Ads/>
+      <Cta/>
+      <Bottom/>
+      <Footer/>
     </div>
   );
 }
