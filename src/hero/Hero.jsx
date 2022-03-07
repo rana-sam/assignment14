@@ -5,7 +5,7 @@ import back from "../assest/Back.png";
 export default function Hero() {
   return (
     <div>
-      <div className="container">
+      <div className="container mt-3">
         <div class="card">
           <img
             src={hero}
