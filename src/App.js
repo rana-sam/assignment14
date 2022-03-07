@@ -9,12 +9,14 @@ import Ads from './ads/Ads';
 import Cta from './cta/Cta';
 import Bottom from './bottom/Bottom';
 import Footer from './footer/Footer';
+import Hero from './hero/Hero';
 
 function App() {
   return (
     <div >
       
       <Navbar/>
+      <Hero/>
       <Reasons/>
       <AboutUS/>
       <Services/>
