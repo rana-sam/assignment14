@@ -7,7 +7,7 @@ import illu3 from "../assest/illus3.png";
 export default function () {
   return (
     <div>
-      <div className="container border pb-5">
+      <div className="container pb-5">
         <div className="row">
           <div className="col-2"></div>
           <div className="col-5 pt-5  pb-5 ">
