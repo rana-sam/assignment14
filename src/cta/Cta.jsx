@@ -42,7 +42,7 @@ export default function Cta() {
               className="mt-3"
               type="text"
               placeholder="Message"
-              style={{ width: 410,height:100 }}
+              style={{ width: 410, height: 100 }}
             />
           </div>
           <div className="col-4"></div>

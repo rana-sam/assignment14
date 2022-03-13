@@ -1,9 +1,9 @@
 import React from "react";
 import img1 from "../assest/Random.png";
 import img2 from "../assest/TheBox.png";
-import fac from "../assest/facebook.png"
-import twit from "../assest/twiter.png"
-import inimg from "../assest/in.png"
+import fac from "../assest/facebook.png";
+import twit from "../assest/twiter.png";
+import inimg from "../assest/in.png";
 export default function Bottom() {
   return (
     <div>
@@ -27,18 +27,22 @@ export default function Bottom() {
           <div className="col-5 ms-5 ps-5">
             <h5 className="text-primary">NEWSLETTER:</h5>
             <span className=" d-flex align-item-center mt-3">
-            <input  type="text" placeholder="Your Email Here"  style={{width: 300,height:41}}/>{" "}
-            <button
-              className="btn w-25 ps-3 pe-3 ms-2"
-              style={{ backgroundColor: "#F9995D" }}
-            >
-              Subsacribe
-            </button>
+              <input
+                type="text"
+                placeholder="Your Email Here"
+                style={{ width: 300, height: 41 }}
+              />{" "}
+              <button
+                className="btn w-25 ps-3 pe-3 ms-2"
+                style={{ backgroundColor: "#F9995D" }}
+              >
+                Subsacribe
+              </button>
             </span>
             <h5 className="text-primary mt-4 pt-3">Social:</h5>
             <img src={fac} alt="" />
             <img className="me-3 ms-3" src={inimg} alt="" />
-            <img  src={twit} alt="" />
+            <img src={twit} alt="" />
           </div>
           <div className="col-1"></div>
         </div>
